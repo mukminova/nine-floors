@@ -16,7 +16,7 @@
     <input type="button" onclick="closeWindow($(this))" value="Закрыть"/>
   </div>
 </div>
-<a href="/site/activity" class="window">Информация</a>
-<a href="/site/floors" class="window">Жителям</a>
+<a href="/site/information" class="window">Информация</a>
+<a href="/site/population" class="window">Жителям</a>
 <a href="/site/faq" class="window">FAQ</a>
 <a href="/site/reestr" class="window">Реестр</a>

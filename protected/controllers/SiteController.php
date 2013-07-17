@@ -27,14 +27,14 @@ class SiteController extends Controller {
     MyHelper::render($this, '/site/index', array(), 'Главная');
   }
 
-  public function actionActivity() {
+  public function actionInformation() {
 
-    MyHelper::render($this, '/site/activity', array(), 'Мероприятия');
+    MyHelper::render($this, '/site/information', array(), 'Информация');
   }
 
-  public function actionFloors() {
+  public function actionPopulation() {
 
-    MyHelper::render($this, '/site/floors', array(), 'Этажи');
+    MyHelper::render($this, '/site/population', array(), 'Жители');
   }
 
   public function actionRegistration() {
