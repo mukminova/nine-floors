@@ -1,15 +1,3 @@
-//$('html').click(function() {
-//  closeWindow();
-//}); 
-//$(function() {
-//  cleaneInput();
-//  $('.registration').click(function(){
-//    $('.registration-window').parent('.obert_window').show();
-//  });
-//  $('.login').click(function(){
-//    $('.login-window').parent('.obert_window').show();
-//  });
-//});
 /*останавливаем распространение волны событий, нужно что закрыть окно щелкая по документу
  **/
 function stopPrepagination(event){

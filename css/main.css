@@ -13,6 +13,9 @@ a {
   outline: none;
   text-decoration: underline;
 }
+a:link, a:visited {
+  color: #0000FF;
+}
 a:hover {
   text-decoration: none;
 }
@@ -82,7 +85,7 @@ input {
 
 /* Main
 -----------------------------------------------------------------------------*/
-.login-window, .registration-window{
+.login-window{
   display: block;
   width: 500px;
   border: 2px #06c dashed;
@@ -100,7 +103,7 @@ input {
   display: none;
   z-index: 30;
 }
-.login-window label, .registration-window label{
+.login-window label, .registration label{
   width: 150px;
   margin: 10px 0;
   display: inline-block;

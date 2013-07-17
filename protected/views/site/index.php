@@ -10,37 +10,13 @@
       <label>Повторите пароль</label>
       <input type="password"><br/>
     </form>
-    <span onclick="closeWindow($(this))">Закрыть</span>
+    <input type="button" value="Войти"/>
+    <!--<input type="button" value="Регистрация"/>-->
+    <a href="/site/registration">Регистрация</a>
+    <input type="button" onclick="closeWindow($(this))" value="Закрыть"/>
   </div>
 </div>
-<div class="window registration" onclick="openWindow($(this))">Регистрация</div>
-<div class="obert_window" onclick="stopPrepagination(event)">
-  <div class="registration-window">
-    <h1>Регистрация</h1>
-    <form name="registration">
-      <label>Фамилия</label>
-      <input type="text"><br/>
-      <label>Имя</label>
-      <input type="text"><br/>
-      <label>Отчество</label>
-      <input type="text"><br/>
-      <label>E-mail</label>
-      <input type="text"><br/>
-      <label>Пароль</label>
-      <input type="password"><br/>
-      <label>Институт</label>
-      <select>
-        <option>ИТЭ</option>
-        <option>ИЭЭ</option>
-        <option>ИЭИТ</option>
-      </select><br/>
-      <label>Группа</label>
-      <input type="text"><br/>
-      <label>Комната</label>
-      <input type="text"><br/>
-    </form>
-    <span onclick="closeWindow($(this))">Закрыть</span>
-  </div>
-</div>
-<a href="/site/activity" class="window">Мероприятия</a>
-<a href="/site/floors" class="window">Этажи</a>
+<a href="/site/activity" class="window">Информация</a>
+<a href="/site/floors" class="window">Жителям</a>
+<a href="/site/faq" class="window">FAQ</a>
+<a href="/site/reestr" class="window">Реестр</a>
