@@ -27,37 +27,14 @@ class SiteController extends Controller {
     MyHelper::render($this, '/site/index', array(), 'Главная');
   }
 
-  public function actionAbout() {
+  public function actionActivity() {
 
-    MyHelper::render($this, '/site/about', array(), 'О компании');
+    MyHelper::render($this, '/site/activity', array(), 'Мероприятия');
   }
 
-  public function actionEquipment() {
+  public function actionFloors() {
 
-    MyHelper::render($this, '/site/equipment', array(), 'Оборудование');
-  }
-    public function actionProduction() {
-
-    MyHelper::render($this, '/site/production', array(), 'Оборудование');
-  }
-
-  public function actionServices() {
-
-    MyHelper::render($this, '/site/services', array(), 'Услуги');
-  }
-
-  public function actionWorks() {
-
-    MyHelper::render($this, '/site/works', array(), 'Работы');
-  }
-    public function actionWork() {
-
-    MyHelper::render($this, '/site/work', array(), 'Работы');
-  }
-
-  public function actionContacts() {
-
-    MyHelper::render($this, '/site/contacts', array(), 'Контакты');
+    MyHelper::render($this, '/site/floors', array(), 'Этажи');
   }
 
   public function actionError() {
@@ -70,7 +47,7 @@ class SiteController extends Controller {
   }
 
   public function actionLogin() {
-    
+
     MyHelper::render($this, '/site/login', array(), 'Вход');
   }
 

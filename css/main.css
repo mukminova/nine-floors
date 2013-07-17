@@ -1,3 +1,117 @@
-﻿*{
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+  height: 100%;
+}
+a {
+  outline: none;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  margin: 0 0 18px
+}
+img {
+  border: none;
+}
+input {
+  vertical-align: middle;
+}
+#wrapper {
+  min-width: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+#menu{
+  display: none;
+}
 
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+  height: 200px;
+  background: brown;
+  position: relative;
+}
+.sun{
+  position: absolute;
+  z-index: 30;
+  top:40px;
+  left: 50px;
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+  padding: 0 150px 100px;
+}
+#content>div{
+  border: 2px #06c solid;
+  min-height: 600px;
+  padding: 50px;
+}
+.window{
+  width: 100px;
+  height: 100px;
+  border: 3px solid royalblue;
+  margin: 15px;
+  cursor: pointer;
+  display: block;
+  float: left;
+}
+
+
+/* Main
+-----------------------------------------------------------------------------*/
+.login-window, .registration-window{
+  display: block;
+  width: 500px;
+  border: 2px #06c dashed;
+  margin-left: -250px;
+  margin-top: -100px;
+  background: #BCE774;
+  padding: 30px;
+}
+.obert_window{
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  left: 50%;
+  top:50%;
+  display: none;
+  z-index: 30;
+}
+.login-window label, .registration-window label{
+  width: 150px;
+  margin: 10px 0;
+  display: inline-block;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+  margin: -100px auto 0;
+  min-width: 500px;
+  max-width: 1200px;
+  height: 100px;
+  background: yellowgreen;
+  position: relative;
 }
