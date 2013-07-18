@@ -11,6 +11,8 @@
     <input type="text"><br/>
     <label>Пароль</label>
     <input type="password"><br/>
+    <label>Повторите пароль</label>
+    <input type="password"><br/>
     <label>Институт</label>
     <select>
       <option>ИТЭ</option>

@@ -46,12 +46,23 @@ class SiteController extends Controller {
 
     MyHelper::render($this, '/site/faq', array(), 'Часто задаваемые вопросы');
   }
-  
+
   public function actionReestr() {
 
     MyHelper::render($this, '/site/reestr', array(), 'Реестр');
   }
+
+  public function actionNews() {
+
+    MyHelper::render($this, '/site/news', array(), 'Реестр');
+  }
   
+ public function actionProfile() {
+
+    MyHelper::render($this, '/site/profile', array(), 'Реестр');
+  }
+
+
   public function actionError() {
     if ($error = Yii::app()->errorHandler->error) {
       if (Yii::app()->request->isAjaxRequest)
