@@ -62,12 +62,12 @@ class SiteController extends Controller {
     MyHelper::render($this, '/site/profile', array(), 'Реестр');
   }
   
-   public function actionTestreg() {
+   public function actionTestReg() {
 
     MyHelper::render($this, '/site/testreg', array(), 'Реестр');
   }
   
-   public function actionSaveuser() {
+   public function actionSaveUser() {
 
     MyHelper::render($this, '/site/saveuser', array(), 'Реестр');
   }
