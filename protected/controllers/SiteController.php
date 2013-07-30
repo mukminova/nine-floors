@@ -50,6 +50,7 @@ class SiteController extends Controller {
       } else {
         $errors = 'Пароли не совпадают!';
       }
+      Users::sendMail('registartion', array('user' => $user, 'recipient' => $user->login));
     }
 
     MyHelper::render($this, '/site/registration', array('errors' => $errors), 'Регистрация');
@@ -105,5 +106,7 @@ class SiteController extends Controller {
     Yii::app()->user->logout();
     $this->redirect(Yii::app()->homeUrl);
   }
-
+  public function actionConfirm() {
+    MyHelper::render($this, '/site/confirm', array(), 'Подтверждение регистрации');
+  }
 }
