@@ -43,7 +43,7 @@ class SiteController extends Controller {
       if ($_POST['password'] == $_POST['repeat_password']) {
         $user = new Users();
         $user->login = $_POST['login'];
-        $user->password = $_POST['password'];
+        $user->password = md5($_POST['password']);
         if ($user->save()) {
           
         } else {
