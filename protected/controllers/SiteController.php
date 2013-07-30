@@ -44,10 +44,8 @@ class SiteController extends Controller {
         $user = new Users();
         $user->login = $_POST['login'];
         $user->password = md5($_POST['password']);
-        if ($user->save()) {
-          
-        } else {
-        $errors = 'Вы ввели неправильный e-mail!';
+        if (!$user->save()) {
+          $errors = 'Вы ввели неправильный e-mail!';
         }
       } else {
         $errors = 'Пароли не совпадают!';
