@@ -14,7 +14,7 @@ return array(
         'application.modules.*'
     ),
     'defaultController' => 'site',
-//    'modules' => array(
+    'modules' => array(
 //        'srbac' => array(
 //            'userclass' => 'User',
 //            'userid' => 'id',
@@ -38,13 +38,13 @@ return array(
 //            'showFooter' => true,
 //            'alwaysAllowedPath' => 'srbac.components',
 //        ),
-//        'gii' => array(
-//            'class' => 'system.gii.GiiModule',
-//            'password' => '7878',
-//            'ipFilters' => array('*'),
-//        ),
-//        'userAdmin',
-//    ),
+        'gii' => array(
+            'class' => 'system.gii.GiiModule',
+            'password' => '7878',
+            'ipFilters' => array('*'),
+        ),
+        'userAdmin',
+    ),
     'components' => array(
         'mailer' => array(
             'class' => 'application.extensions.mailer.EMailer',

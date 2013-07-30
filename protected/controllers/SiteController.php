@@ -38,8 +38,23 @@ class SiteController extends Controller {
   }
 
   public function actionRegistration() {
+    $errors = '';
+    if (!empty($_POST)) {
+      if ($_POST['password'] == $_POST['repeat_password']) {
+        $user = new Users();
+        $user->login = $_POST['login'];
+        $user->password = $_POST['password'];
+        if ($user->save()) {
+          
+        } else {
+        $errors = 'Вы ввели неправильный e-mail!';
+        }
+      } else {
+        $errors = 'Пароли не совпадают!';
+      }
+    }
 
-    MyHelper::render($this, '/site/registration', array(), 'Регистрация');
+    MyHelper::render($this, '/site/registration', array('errors' => $errors), 'Регистрация');
   }
 
   public function actionFaq() {
@@ -56,23 +71,21 @@ class SiteController extends Controller {
 
     MyHelper::render($this, '/site/news', array(), 'Реестр');
   }
-  
- public function actionProfile() {
+
+  public function actionProfile() {
 
     MyHelper::render($this, '/site/profile', array(), 'Реестр');
   }
-  
-   public function actionTestReg() {
+
+  public function actionTestReg() {
 
     MyHelper::render($this, '/site/testreg', array(), 'Реестр');
   }
-  
-   public function actionSaveUser() {
+
+  public function actionSaveUser() {
 
     MyHelper::render($this, '/site/saveuser', array(), 'Реестр');
   }
-  
-
 
   public function actionError() {
     if ($error = Yii::app()->errorHandler->error) {
@@ -85,7 +98,9 @@ class SiteController extends Controller {
 
   public function actionLogin() {
 
-    MyHelper::render($this, '/site/login', array(), 'Вход');
+    MyHelper::render($this, '/site/login', array(), 'Вход
+
+    ');
   }
 
   public function actionLogout() {
