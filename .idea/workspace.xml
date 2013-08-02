@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="8d5197d1-60f6-4e5e-b44d-37ae0b7bcd1d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.less" afterPath="$PROJECT_DIR$/css/style.less" />
     </list>
     <ignored path="nine-floors.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8d5197d1-60f6-4e5e-b44d-37ae0b7bcd1d" time="1375439101340" ignored="false" />
     <file path="/SiteController.php" changelist="8d5197d1-60f6-4e5e-b44d-37ae0b7bcd1d" time="1375252232576" ignored="false" />
     <file path="/Users.php" changelist="8d5197d1-60f6-4e5e-b44d-37ae0b7bcd1d" time="1375252208584" ignored="false" />
-    <file path="/style.less" changelist="8d5197d1-60f6-4e5e-b44d-37ae0b7bcd1d" time="1375444080431" ignored="false" />
+    <file path="/style.less" changelist="8d5197d1-60f6-4e5e-b44d-37ae0b7bcd1d" time="1375448800583" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +43,10 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="8" selection-start="1556" selection-end="1556" vertical-scroll-proportion="-15.692307">
+            <state line="35" column="8" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-15.692307">
               <folding>
-                <marker date="1375443560111" expanded="true" signature="1018:1294" placeholder="..." />
-                <marker date="1375443560111" expanded="true" signature="1033:1286" placeholder="..." />
+                <marker date="1375448511000" expanded="true" signature="1018:1294" placeholder="..." />
+                <marker date="1375448511000" expanded="true" signature="1033:1286" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -56,7 +55,7 @@
       <file leaf-file-name="style.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="72" selection-start="421" selection-end="421" vertical-scroll-proportion="0.24113475">
+            <state line="123" column="45" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.28132388">
               <folding />
             </state>
           </provider>
@@ -377,10 +376,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="1556" selection-end="1556" vertical-scroll-proportion="-15.692307">
+        <state line="35" column="8" selection-start="1606" selection-end="1606" vertical-scroll-proportion="-15.692307">
           <folding>
-            <marker date="1375443560111" expanded="true" signature="1018:1294" placeholder="..." />
-            <marker date="1375443560111" expanded="true" signature="1033:1286" placeholder="..." />
+            <marker date="1375448511000" expanded="true" signature="1018:1294" placeholder="..." />
+            <marker date="1375448511000" expanded="true" signature="1033:1286" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -401,7 +400,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="72" selection-start="421" selection-end="421" vertical-scroll-proportion="0.24113475">
+        <state line="123" column="45" selection-start="2270" selection-end="2270" vertical-scroll-proportion="0.28132388">
           <folding />
         </state>
       </provider>

@@ -28,6 +28,7 @@
       <?php $this->renderPartial('application.views.layouts._menu', array('current_item' => 'about')) ?>
       <div id="content">
         <?php echo $content; ?>
+        <div class="bg-content"></div>
       </div>
     </div>
   </div>
