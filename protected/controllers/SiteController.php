@@ -27,12 +27,13 @@ class SiteController extends Controller {
                 $user->login = $_POST['login'];
                 $user->password = md5($_POST['password']);
                 if (!$user->save()) {
-                    $errors = 'Вы ввели неправильный e-mail!';
+                    $errors = $user->getErrors();
+                }else{
+                    Users::sendMail('registartion', array('user' => $user, 'recipient' => $user->login));
                 }
             } else {
-                $errors = 'Пароли не совпадают!';
+                $errors[][] = 'Пароли не совпадают!';
             }
-            Users::sendMail('registartion', array('user' => $user, 'recipient' => $user->login));
         }
 
         MyHelper::render($this, '/site/registration', array('errors' => $errors), 'Регистрация');
@@ -89,8 +90,8 @@ class SiteController extends Controller {
         $this->redirect(Yii::app()->homeUrl);
     }
 
-    public function actionConfirm($test) {
-       
+    public function actionConfirm($key) {
+        Users::findUserByKey($key);
         MyHelper::render($this, '/site/confirm', array(), 'Подтверждение регистрации');
     }
 
