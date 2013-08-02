@@ -16,8 +16,15 @@
     <input type="button" onclick="closeWindow($(this))" value="Закрыть"/><br/>
   </div>
 </div>
-<a href="/site/information" class="window">Информация</a>
-<a href="/site/population" class="window">Жителям</a>
-<a href="/site/reestr" class="window">Реестр</a>
 <div class="clear"></div>
+
+<div>
+    <span style="vertical-align: sub">л</span>
+    <span style="vertical-align: 5px">е</span>
+    <span style="vertical-align: 10px">с</span>
+    <span style="vertical-align: 15px">е</span>
+    н
+    <span style="vertical-align: 20px">к</span>
+    <span style="vertical-align: 15px">а</span>
+</div>
 

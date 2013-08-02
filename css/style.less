@@ -1,0 +1,169 @@
+/* Colors for my Website */
+@color-orange: #ff9900;
+@color-gray_light: #cccccc;
+@color-gray_dark: #23d38a; /*header, footer*/
+@color-black_medium: #454545;
+@color-white: #fff; /*header, footer text*/
+
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @color: #000) {
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+.text-shadow(@x: 0, @y: 0, @blur: 1px, @color: rgba(150, 150, 150, 0.92)) {
+  text-shadow: @arguments;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+@import url(http://fonts.googleapis.com/css?family=Alegreya&subset=latin,latin-ext);
+
+header, footer, nav, article, aside, section {display: block;}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  min-width: 300px;
+  width: 100%;
+}
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+#menu{
+  display: none;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+  text-align: justify;
+  font-style: italic;
+  font-family: 'Alegreya', serif;
+  letter-spacing: 1px;
+//  height: 8em;
+  padding: 2em 10%;
+  background: @color-gray_dark;
+  color: @color-white;
+    nav {
+     display: inline-block;
+      float: right;
+      a {
+        color: @color-white!important;
+        padding: 0 0.6em;
+        white-space: nowrap;
+        font-size:1.2rem;
+        :last-child {
+          padding-right: 0;
+        }
+      }
+    }
+  h1{
+    font-size: 3rem;
+    .text-shadow(5px,0px,9px);
+  }
+}
+
+
+header > div,
+header > div::before,
+header > div h1 {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+
+header > div {
+  height: 100%;
+  ::before {
+    content: '';
+    height: 100%;
+  }
+  h1 {
+    font-size: 3em;
+    font-style: italic;
+  }
+
+}
+
+@media screen and (max-width: 720px){
+
+  header {
+    height: auto;
+  }
+
+  header > div,
+  header > div h1,
+  header nav {
+    height: auto;
+    width: auto;
+    display: block;
+    text-align: center;
+    float: none;
+  }
+
+}
+
+
+/* Content
+-----------------------------------------------------------------------------*/
+#content {
+  padding-bottom: 8em;
+  margin: 0 auto;
+  min-width: 300px;
+//  border: 2px #06c solid;
+}
+.login-window, .askme-window{
+  display: block;
+  width: 500px;
+  border: 2px #06c dashed;
+  margin-left: -250px;
+  background: #BCE774;
+  padding: 30px;
+}
+.obert_window{
+  width: 1px;
+  height: 1px;
+  position: fixed;
+  left: 50%;
+  display: none;
+  z-index: 30;
+}
+/*.login-window label, .registration label{
+  width: 150px;
+  margin: 10px 0;
+  display: inline-block;
+}*/
+form label{
+  width: 150px;
+  margin: 10px 0;
+  display: inline-block;
+}
+.delete{
+  width: 15px;
+  height: 15px;
+  background: red;
+  display: inline-block;
+  cursor: pointer;
+}
+.news-box{
+  margin: 10px 0;
+  border-bottom: 2px springgreen solid;
+  padding: 10px 0;
+}
+.picture{
+  width: 50px;
+  height: 50px;
+  background: #FFFF00;
+  float: left;
+}
+.clear {clear:both;}
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+  margin: -8em auto 0;
+  height: 8em;
+  background: @color-gray_dark;
+}
