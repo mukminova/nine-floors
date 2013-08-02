@@ -4,9 +4,9 @@ return array(
     'connectionString' => 'mysql:host=localhost;dbname=nine_floors',
     'emulatePrepare' => true,
     'username' => 'root',
-    'password' => '7878',
+    'password' => '',
     'charset' => 'utf8',
-    'tablePrefix' => '',
+    'tablePrefix' => 'nf_',
     'enableProfiling' => true,
     'enableParamLogging' => true,
 );
