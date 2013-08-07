@@ -10,6 +10,7 @@
     <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
     <link rel="stylesheet/less" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.less">
     <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/less.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/modernizr.js"></script>
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
   </head>
   <body>
@@ -28,8 +29,7 @@
       <?php $this->renderPartial('application.views.layouts._menu', array('current_item' => 'about')) ?>
       <div id="content">
         <?php echo $content; ?>
-        <div class="bg-content"></div>
-      </div>
+       </div>
     </div>
   </div>
   <footer>
