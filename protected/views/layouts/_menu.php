@@ -1,4 +1,4 @@
-<div id="menu">
+<!--<div id="menu">
     <div id="all-site-button" onclick="stopPrepagenation(event)" >
         <span>Весь сайт</span>
     </div>
@@ -13,4 +13,4 @@
             )
         ),));
     ?>
-</div>
+</div>-->
