@@ -39,7 +39,7 @@ body {
   margin-bottom: 60px;
 
   /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-  margin-top: -90px;
+  /*margin-top: -90px;*/
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -49,14 +49,11 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  /*background-color: #777;*/
 }
 .carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
   height: 500px;
+  padding: 0!important;
 }
 
 
@@ -68,6 +65,7 @@ body {
 .marketing {
   padding-left: 15px;
   padding-right: 15px;
+  overflow: hidden;
 }
 
 /* Center align the text within the three columns below the carousel */
@@ -135,157 +133,65 @@ body {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    /*margin-top: 120px;*/
   }
 }
 
-/* эффект при наведении*/
-
-.shape {
-  width: 214px;
-  height: 230px;
-  position: relative;
-  margin-top: 20px;
-  z-index: 10;
-  display: inline-block;
+#content{
+  padding-top: 90px; 
 }
 
-.shape .overlay {
-  display: inline-block;
-  width: 260px;
-  height: 270px;
-  position: absolute;
-  top: -5px;
-  left: -5px;
-
-  -webkit-transform: scale(1, 1);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 0.6s;
-  -moz-transform: scale(1, 1);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 0.6s;
-  transform: scale(1, 1);
-  transition-timing-function: ease-out;
-  transition-duration: 0.6s;
-  z-index: 500;
-  /* allow user to actually perform actions underneath this layer */
-  pointer-events: none;
-  background-repeat: no-repeat;
+th {
+  background-color: #656565;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0 10px;
+  color: #fff;
+  text-shadow: #414141 0 1px 0px;
+  line-height: 40px;
 }
-
-/* different shapes */
-.shape .overlay.round {
-  background: url(../img/hover-white.png) 0px 0px;
-
+tr:first-child th:first-child {
+  -webkit-border-top-left-radius: 5px;
+  -khtml-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
 }
-
-.shape .overlay.hexagon {
-  background: url(../img/hover-white.png) -252px 0px;
+tr:first-child th:last-child {
+  -webkit-border-top-right-radius: 5px;
+  -khtml-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
 }
-
-.shape .overlay.pentagon {
-  background: url(../img/hover-white.png) -484px 0px;
+/*.table-block{
+  height: 120px;
+  overflow: hidden;
 }
-
-/* hover effect */
-.shape:hover .overlay {
-  -webkit-transform: scale(1.07, 1.07);
-  -webkit-transition-timing-function: ease-out;
-  -webkit-transition-duration: 0.3s;
-  -moz-transform: scale(1.07, 1.07);
-  -moz-transition-timing-function: ease-out;
-  -moz-transition-duration: 0.3s;
-}
-
-.shape:hover .bg {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-  filter: alpha(opacity=80);
-  -moz-opacity: 0.8;
-  -khtml-opacity: 0.8;
-  opacity: 0.8;
-  display: block;
-}
-
-.shape:hover .details {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-  filter: alpha(opacity=100);
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  opacity: 1;
-  z-index: 450;
-  display: block;
-}
-
-/* content styles */
-.shape .bg,
-.shape .details {
-  position: absolute;
-  width: 214px;
-  height: 230px;
-  display: table-cell;
-  vertical-align: middle;
+*/.price {
   text-align: center;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  display: none;
-  z-index: 10;
 }
-
-.shape .bg {
-  background: #333;
+.price .table-block{
+  padding-top: 30px;
 }
-
-.shape .details span.heading {
-  font-family: 'Roboto Condensed', serif;
-  font-size: 30px;
+.production-table tbody > tr > td{
+  border-top: none;
+}
+.production-table tbody > tr.odd{
+  background-color: #f9f9f9;
+}
+.production-table tbody > tr.table-border{
+  border-bottom: 1px solid #ddd;
+}
+.form-horizontal .control-group {
+  margin-bottom: 20px;
+}
+.form-horizontal .control-label {
+  float: left;
+  width: 160px;
+  padding-top: 5px;
+  text-align: right;
   display: block;
-  margin-top: 70px;
-  color: #fff;
-  text-decoration: none;
+  margin-bottom: 5px;
 }
-
-.shape .details p {
-  font-family: 'Abel', sans-serif;
-  color: #fff;
-  width: 70%;
-  font-size: 14px;
-  margin: 0 auto;
+.form-horizontal .controls {
+  margin-left: 180px;
 }
-
-.shape a.button {
-  padding: 5px 15px;
-  font-family: 'Abel', sans-serif;
-  font-size: 12px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
-  background: #2f3644;
-  text-decoration: none;
-  color: #fff;
-  display: inline-block;
-  vertical-align: middle;
-  /*width: 50px;*/
-  margin: 0  auto;
-  text-align: center;
-  margin-top: 15px;
-
-}
-
-.shape a.button:hover {
-  background: #fff;
-  color: #2f3644;
-}
-
-.base img {
-  height: 252px;
-  width: 242px;
-}
-
-/* эффект при наведении end*/
