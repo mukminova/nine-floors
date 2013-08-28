@@ -40,7 +40,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="item active">
-      <img class="container" src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+      <img class="container" src="<?php echo Yii::app()->request->baseUrl; ?>/img/1.jpg" data-src="holder.js" alt="First slide">
       <div class="container">
         <div class="carousel-caption">
           <!--                  <h1>Example headline.</h1>
@@ -50,7 +50,7 @@
       </div>
     </div>
     <div class="item">
-      <img class="container"  src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Second slide" alt="Second slide">
+      <img class="container"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/2.jpg" data-src="holder.js" alt="Second slide">
       <div class="container">
         <div class="carousel-caption">
           <!--                  <h1>Another example headline.</h1>
@@ -60,7 +60,7 @@
       </div>
     </div>
     <div class="item">
-      <img class="container"  src="data:image/png;base64," data-src="holder.js/100%x500/auto/#777:#7a7a7a/text:Third slide" alt="Third slide">
+      <img class="container"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/3.jpg" data-src="holder.js" alt="Third slide">
       <div class="container">
         <div class="carousel-caption">
           <!--                  <h1>One more for good measure.</h1>
@@ -82,13 +82,13 @@
       <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
       <h2>Продукция</h2>
       <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-      <p><a class="btn btn-default" href="#">Перейти &raquo;</a></p>
+      <p><a class="btn btn-default" href="/site/production">Перейти &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
       <h2>Отзывы</h2>
       <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-      <p><a class="btn btn-default" href="#">Перейти &raquo;</a></p>
+      <p><a class="btn btn-default" href="/site/rewievs">Перейти &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-4">
       <!--<img class="img-circle" src="data:image/png;base64," data-src="holder.js/140x140" alt="Generic placeholder image">-->
@@ -105,30 +105,31 @@
 
   <div class="row featurette">
     <a name="company"></a>
-    <div class="col-md-7">
+    <div class="row container">
       <h2 class="featurette-heading">О компании</h2>
       <p class="lead">Основное направление деятельности нашей фирмы - 
         производство туристских катамаранов. Более чем десятилетний опыт 
         спортивных сплавов по сложным рекам и соревнований на бурной воде 
         помогает нам создавать простые в сборке, надёжные, эргономичные, 
         ремонтопригодные в походных условиях и удобные в эксплуатации суда, 
-        которые, надеемся, понравятся и вам.</p>
+        которые, надеемся, понравятся и вам.
+      </p>
     </div>
-    <div class="col-md-5">
+<!--    <div class="col-md-5">
       <img  src="<?php echo Yii::app()->request->baseUrl; ?>/img/bg_c.jpg" >
-    </div>
+    </div>-->
   </div>
 
   <hr class="featurette-divider">
 
   <div class="row featurette">
     <a name="news"></a>
-    <div class="col-md-5">
+<!--    <div class="col-md-5">
       <img class="featurette-image img-responsive" src="data:image/png;base64," data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-    </div>
-    <div class="col-md-7">
+    </div>-->
+    <div class="row container">
       <h2 class="featurette-heading">Новости</h2>
-      <dl class="dl-horizontal">
+      <dl class="dl-horizontal dl-news">
         <dt>03.04.2013</dt>
         <dd>Начат выпуск улучшенных катамаранных вёсел с дюралюминиевой лопастью. 
           Возможны два базовых размера длины и два базовых размера площади лопасти. </dd>
@@ -211,7 +212,7 @@
       </dl>
     </div>
   </div>
-  <p class="lead">Готовую продукцию нашего производства, а также 
+  <p class="lead container">Готовую продукцию нашего производства, а также 
     сопутствующее турснаряжение можно приобрести или заказать в Казани 
     - в магазине "Аргут". Адрес магазина: г.Казань, пр.Ямашева-54,
     тел.+7(843) 556-16-65. Жители севера европейской части России могут 
@@ -224,11 +225,3 @@
   <!-- /END THE FEATURETTES -->
 
 </div>
-<!--<script>
-  $('.main-menu li').click(function scroll_to_elem(elem,speed){
-        if(document.getElementById(elem)) {
-      var destination = $('#'+elem).offset().top;
-      jQuery("html,body").animate({scrollTop: destination}, speed);
-    }
-  });
-</script>-->

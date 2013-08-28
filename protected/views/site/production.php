@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container marketing">
   <h2 class="featurette-heading">Продукция</h2>
   <table class="table production-table">
     <thead>
@@ -12,10 +12,8 @@
     <tbody>
       <tr class="odd">
         <td>
-          <div class="table-block">
-            <div>"Юшут" 2000</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-yushut/yushut1.jpg">
-          </div>
+          <div>"Юшут" 2000</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-yushut/yushut1.jpg">
         </td>
         <td>Многоместный катамаран для туристских походов и путешествий.</td>
         <td>
@@ -28,20 +26,16 @@
           </div>
         </td>
         <td class="price">
-          <div class="table-block">  
-            6500<br>
-            10000<br>
-            9800<br>
-            2600
-          </div>
+          6500<br>
+          10000<br>
+          9800<br>
+          2600
         </td>
       </tr>
       <tr class="odd">
         <td>
-          <div class="table-block">
-            <div>"Юшут" 1800</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-yushut/yushut1.jpg">
-          </div>
+          <div>"Юшут" 1800</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-yushut/yushut1.jpg">
         </td>
         <td></td>
         <td>
@@ -54,20 +48,16 @@
           </div>
         </td>
         <td class="price">
-          <div class="table-block">  
-            5500<br>
-            9500<br>
-            9600<br>
-            2600
-          </div>
+          5500<br>
+          9500<br>
+          9600<br>
+          2600
         </td>
       </tr>
       <tr class="odd table-border">
         <td>
-          <div class="table-block">  
-            <div>"Юшут" 1600</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-yushut/yushut1.jpg">
-          </div>
+          <div>"Юшут" 1600</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-yushut/yushut1.jpg">
         </td>
         <td></td>
         <td>
@@ -80,20 +70,16 @@
           </div>
         </td>
         <td class="price">
-          <div class="table-block">  
-            4500<br>
-            9000<br>
-            8800<br>
-            2400
-          </div>
+          4500<br>
+          9000<br>
+          8800<br>
+          2400
         </td>
       </tr>
       <tr class="even table-border">
         <td>
-          <div class="table-block">
-            <div>"Плёс-2" и "Плёс-2м"</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
-          </div>
+          <div>"Плёс-2" и "Плёс-2м"</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
         </td>
         <td>Двухместный катамаран для туристских походов и путешествий 
           1-4к.с.</td>
@@ -107,20 +93,16 @@
           </div>
         </td>
         <td class="price">
-          <div class="table-block">  
-            8000<br>
-            9000<br>
-            8600<br>
-            2200
-          </div>
+          8000<br>
+          9000<br>
+          8600<br>
+          2200
         </td>
       </tr>
       <tr class="odd table-border">
         <td>
-          <div class="table-block">
-            <div>"Плёс-3" и "Плёс-3м"</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
-          </div>
+          <div>"Плёс-3" и "Плёс-3м"</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
         </td>
         <td>Четырёхместный катамаран для семейного отдыха, туристских походов и
           ыпутешествий 1-4к.с.</td>
@@ -134,20 +116,16 @@
           </div>
         </td>
         <td class="price">
-          <div class="table-block">  
-            9000<br>
-            9500<br>
-            9200<br>
-            2400
-          </div>
+          9000<br>
+          9500<br>
+          9200<br>
+          2400
         </td>
       </tr>
       <tr class="even table-border">
         <td>
-          <div class="table-block">
-            <div>"Плёс-4" и "Плёс-4м"</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
-          </div>
+          <div>"Плёс-4" и "Плёс-4м"</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
         </td>
         <td>Шестиместный катамаран для семейного отдыха, туристских походов и 
           путешествий 1-4к.с.</td>
@@ -161,63 +139,47 @@
           </div>
         </td>
         <td class="price">
-          <div class="table-block">  
-            10000<br>
-            10000<br>
-            9800<br>
-            2600
-          </div>
+          10000<br>
+          10000<br>
+          9800<br>
+          2600
         </td>
       </tr>
       <tr class="odd">
         <td>
-          <div class="table-block">
-            <div>"Плёс-К" и "Плёс-Км"</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
-          </div>
+          <div>"Плёс-К" и "Плёс-Км"</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
         </td>
         <td>Трёх-шестиместные гондолы для парусно-гребных туристских походов
           и путешествий 1-4к.с.</td>
         <td>
-          <div class="table-block">  
-            Оболочки, двухсекционные баллоны, насос, чехол-сумка, ремнабор 
-          </div>          
+          Оболочки, двухсекционные баллоны, насос, чехол-сумка, ремнабор 
         </td>
         <td>
-          <div class="table-block">  
-            договор.
-          </div>
+          договор.
         </td>
       </tr>
       <tr class="odd table-border">
         <td></td>
         <td></td>
         <td>
-          <div class="table-block">  
-            Рама (транспортировочная длина 2м) в чехле*
-          </div>
+          Рама (транспортировочная длина 2м) в чехле*
         </td>
         <td>
-          <div class="table-block">  
-            договор.
-          </div>
+          договор.
         </td>
       </tr>
       <tr class="even">
         <td>
-          <div class="table-block">
-            <div>"Сварожич"</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
-          </div>
+          <div>"Сварожич"</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
         </td>
         <td>Двухместный катамаран для туристских, туристско-спортивных походов 
           и путешествий до 6к.с. включительно, а также для соревнований-ралли 
           в условиях экстремально бурной воды</td>
         <td>
-          <div class="table-block">  
-            <p class="text-info">Полный комплект</p>
-            Оболочки с пришивными сидениями
-          </div>
+          <p class="text-info">Полный комплект</p>
+          Оболочки с пришивными сидениями
         </td>
         <td>
           <p class="text-info">35000</p>
@@ -244,19 +206,15 @@
       </tr>
       <tr class="odd">
         <td>
-          <div class="table-block">
-            <div>"Сварог"</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
-          </div>
+          <div>"Сварог"</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
         </td>
         <td>Четырёхместный катамаран для туристских, туристско-спортивных 
           походов, путешествий и экспедиций до 6к.с. включительно, а также для 
           соревнований-ралли в условиях экстремально бурной воды</td>
         <td>
-          <div class="table-block">  
-            <p class="text-info">Полный комплект</p>
-            Оболочки с пришивными сидениями
-          </div>
+          <p class="text-info">Полный комплект</p>
+          Оболочки с пришивными сидениями
         </td>
         <td>
           <p class="text-info">49700</p>
@@ -283,10 +241,8 @@
       </tr>
       <tr class="even table-border">
         <td>
-          <div class="table-block">
-            <div>"Квартет"</div>
-            <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
-          </div>
+          <div>"Квартет"</div>
+          <img src="http://sudoverf.narod.ru/sudoverf-price/ples2small.jpg">
         </td>
         <td>Четырёхместный катамаран для тренировок и соревнований по 
           спортивно-туристскому многоборью</td>
